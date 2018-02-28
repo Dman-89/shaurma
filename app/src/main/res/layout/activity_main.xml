@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?><!--android:background="#fffed6"#80CBC4-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#007F66"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/shaurma_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Best shaurma cafe\nin the region!"
+                android:textAlignment="center"
+                android:textColor="#F0C843"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/frontside_adjusted2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="We're glad to offer you:"
+            android:textSize="24sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/roll"
+                    android:layout_centerHorizontal="true"
+                    android:text="Shaurma"
+                    android:textSize="19sp"
+                    android:textStyle="bold|italic" />
+
+                <ImageView
+                    android:id="@+id/roll"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/shaurma"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hamburger"
+                    android:layout_centerHorizontal="true"
+                    android:text="Hamburger"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/hamburger"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/hamburger"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hotdog"
+                    android:layout_centerHorizontal="true"
+                    android:text="Hotdog"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/hotdog"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/hotdog"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/baguette"
+                    android:layout_centerHorizontal="true"
+                    android:text="Baguette"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/baguette"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/baguette"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bread2"
+                    android:layout_centerHorizontal="true"
+                    android:text="Loaf"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/bread2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/bread2"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bread"
+                    android:layout_centerHorizontal="true"
+                    android:text="Bread"
+                    android:textSize="19dp" />
+
+                <ImageView
+                    android:id="@+id/bread"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/bread"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cinnamon"
+                    android:layout_centerHorizontal="true"
+                    android:text="Cinnamon roll"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/cinnamon"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/cinnamon"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bretzel"
+                    android:layout_centerHorizontal="true"
+                    android:text="Bretzel"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/bretzel"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/brezel"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/croissant"
+                    android:layout_centerHorizontal="true"
+                    android:text="Croissant"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/croissant"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/croissant"
+                    android:tint="#007F66" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="...And a lot more!"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#007F66"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="12dp"
+            android:text="Check out yourself at:"
+            android:textSize="19sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/geomarker"
+                android:paddingLeft="5dp"
+                android:text="Russia, Vladimir oblast, Raduzhniy,\n1 block, 62/3"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/geomarker"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:src="@drawable/geomarker"
+                android:tint="#007F66" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/phone"
+                android:paddingLeft="5dp"
+                android:text="+79040364145 (Viber available)"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/phone"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:src="@drawable/phone"
+                android:tint="#007F66" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/calendar"
+                android:paddingLeft="5dp"
+                android:text="7AM : 10PM"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/calendar"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:src="@drawable/calendar6"
+                android:tint="#007F66" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/clock"
+                android:paddingLeft="5dp"
+                android:text="Open every day except Monday"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@+id/clock"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:src="@drawable/clock"
+                android:tint="#007F66" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>
