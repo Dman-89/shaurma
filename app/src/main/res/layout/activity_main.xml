@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Best shaurma cafe\nin the region!"
+                android:text="@string/headerMain"
                 android:textAlignment="center"
                 android:textColor="#F0C843"
                 android:textSize="22sp" />
@@ -42,12 +42,11 @@
             android:src="@drawable/frontside_adjusted2" />
 
         <TextView
+            style="@style/headers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:paddingTop="10dp"
-            android:text="We're glad to offer you:"
-            android:textSize="24sp" />
+            android:text="@string/headerOffer" />
 
 
         <LinearLayout
@@ -65,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/roll"
                     android:layout_centerHorizontal="true"
-                    android:text="Shaurma"
+                    android:text="@string/shaurma"
                     android:textSize="19sp"
                     android:textStyle="bold|italic" />
 
@@ -85,44 +84,35 @@
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/hamburger"
-                    android:layout_centerHorizontal="true"
-                    android:text="Hamburger"
-                    android:textSize="19sp" />
+                    android:text="@string/hamburger" />
 
                 <ImageView
                     android:id="@+id/hamburger"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/hamburger"
-                    android:tint="#007F66" />
+                    style="@style/productsPic"
+                    android:src="@drawable/hamburger" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center">
+                android:layout_weight="1">
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/hotdog"
-                    android:layout_centerHorizontal="true"
-                    android:text="Hotdog"
-                    android:textSize="19sp" />
+                    android:text="@string/hotdog" />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/hotdog"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/hotdog"
-                    android:tint="#007F66" />
+                    android:src="@drawable/hotdog" />
 
             </RelativeLayout>
 
@@ -141,20 +131,16 @@
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/baguette"
-                    android:layout_centerHorizontal="true"
-                    android:text="Baguette"
-                    android:textSize="19sp" />
+                    android:text="@string/baguette" />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/baguette"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/baguette"
-                    android:tint="#007F66" />
+                    android:src="@drawable/baguette" />
 
             </RelativeLayout>
 
@@ -164,44 +150,35 @@
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/bread2"
-                    android:layout_centerHorizontal="true"
-                    android:text="Loaf"
-                    android:textSize="19sp" />
+                    android:text="@string/loaf" />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/bread2"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/bread2"
-                    android:tint="#007F66" />
+                    android:src="@drawable/bread2" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center">
+                android:layout_weight="1" >
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/bread"
-                    android:layout_centerHorizontal="true"
-                    android:text="Bread"
-                    android:textSize="19dp" />
+                    android:text="@string/bread" />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/bread"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/bread"
-                    android:tint="#007F66" />
+                    android:src="@drawable/bread" />
 
             </RelativeLayout>
 
@@ -220,20 +197,16 @@
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/cinnamon"
-                    android:layout_centerHorizontal="true"
-                    android:text="Cinnamon roll"
-                    android:textSize="19sp" />
+                    android:text="@string/cinnamon" />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/cinnamon"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/cinnamon"
-                    android:tint="#007F66" />
+                    android:src="@drawable/cinnamon" />
 
             </RelativeLayout>
 
@@ -243,56 +216,47 @@
                 android:layout_weight="1">
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/bretzel"
-                    android:layout_centerHorizontal="true"
-                    android:text="Bretzel"
-                    android:textSize="19sp" />
+                    android:text="@string/bretzel"
+                     />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/bretzel"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/brezel"
-                    android:tint="#007F66" />
+                    android:src="@drawable/brezel" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center">
+                android:layout_weight="1" >
 
                 <TextView
+                    style="@style/productsDescr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/croissant"
-                    android:layout_centerHorizontal="true"
-                    android:text="Croissant"
-                    android:textSize="19sp" />
+                    android:text="@string/croissant" />
 
                 <ImageView
+                    style="@style/productsPic"
                     android:id="@+id/croissant"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/croissant"
-                    android:tint="#007F66" />
+                    android:src="@drawable/croissant" />
 
             </RelativeLayout>
 
         </LinearLayout>
 
         <TextView
+            style="@style/headers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:paddingTop="10dp"
-            android:text="...And a lot more!"
-            android:textSize="24sp" />
+            android:text="@string/andMore" />
 
         <View
             android:layout_width="wrap_content"
@@ -310,7 +274,7 @@
             android:paddingBottom="16dp"
             android:paddingLeft="8dp"
             android:paddingTop="12dp"
-            android:text="Check out yourself at:"
+            android:text="@string/addressHeader"
             android:textSize="19sp" />
 
         <RelativeLayout
@@ -318,22 +282,17 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/contacts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/geomarker"
-                android:paddingLeft="5dp"
-                android:text="Russia, Vladimir oblast, Raduzhniy,\n1 block, 62/3"
-                android:textSize="19sp" />
+                android:text="@string/address"
+                android:autoLink="map"/>
 
             <ImageView
+                style="@style/contactsImg"
                 android:id="@+id/geomarker"
-                android:layout_width="38dp"
-                android:layout_height="38dp"
-                android:layout_centerVertical="true"
-                android:paddingLeft="5dp"
-                android:src="@drawable/geomarker"
-                android:tint="#007F66" />
+                android:src="@drawable/geomarker" />
 
         </RelativeLayout>
 
@@ -342,22 +301,17 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/contacts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/phone"
-                android:paddingLeft="5dp"
-                android:text="+79040364145 (Viber available)"
-                android:textSize="19sp" />
+                android:text="@string/phone"
+                android:autoLink="phone"/>
 
             <ImageView
+                style="@style/contactsImg"
                 android:id="@+id/phone"
-                android:layout_width="38dp"
-                android:layout_height="38dp"
-                android:layout_centerVertical="true"
-                android:paddingLeft="5dp"
-                android:src="@drawable/phone"
-                android:tint="#007F66" />
+                android:src="@drawable/phone" />
 
         </RelativeLayout>
 
@@ -366,22 +320,16 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/contacts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/calendar"
-                android:paddingLeft="5dp"
-                android:text="7AM : 10PM"
-                android:textSize="19sp" />
+                android:text="@string/daysWorking" />
 
             <ImageView
+                style="@style/contactsImg"
                 android:id="@+id/calendar"
-                android:layout_width="38dp"
-                android:layout_height="38dp"
-                android:layout_centerVertical="true"
-                android:paddingLeft="5dp"
-                android:src="@drawable/calendar6"
-                android:tint="#007F66" />
+                android:src="@drawable/calendar6" />
 
         </RelativeLayout>
 
@@ -390,22 +338,16 @@
             android:layout_height="wrap_content">
 
             <TextView
+                style="@style/contacts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_toRightOf="@id/clock"
-                android:paddingLeft="5dp"
-                android:text="Open every day except Monday"
-                android:textSize="19sp" />
+                android:text="@string/workHours" />
 
             <ImageView
+                style="@style/contactsImg"
                 android:id="@+id/clock"
-                android:layout_width="38dp"
-                android:layout_height="38dp"
-                android:layout_centerVertical="true"
-                android:paddingLeft="5dp"
-                android:src="@drawable/clock"
-                android:tint="#007F66" />
+                android:src="@drawable/clock" />
         </RelativeLayout>
     </LinearLayout>
 

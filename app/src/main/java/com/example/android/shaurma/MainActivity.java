@@ -9,7 +9,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 //        Drawable mIcon= ContextCompat.getDrawable(this, R.drawable.roll2);
 //        mIcon.mutate().setColorFilter(0xFF007F66, PorterDuff.Mode.MULTIPLY);
 //

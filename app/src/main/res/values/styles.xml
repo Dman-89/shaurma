@@ -8,4 +8,34 @@
         <item name="colorAccent">#1DE9B6</item>
     </style>
 
+    <style name="productsDescr">
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="productsPic">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:tint">#007F66</item>
+    </style>
+
+    <style name="headers">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="contacts">
+        <item name="android:textSize">19sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="contactsImg">
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:tint">#007F66</item>
+    </style>
 </resources>

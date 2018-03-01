@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Shaurma</string>
+
+    <string name="headerMain">Best shaurma cafe\nin the region!</string>
+    <string name="headerOffer">We\'re glad to offer you:</string>
+    <string name="shaurma">Shaurma</string>
+    <string name="hamburger">Hamburger</string>
+    <string name="hotdog">Hotdog</string>
+    <string name="baguette">Baguette</string>
+    <string name="loaf">Loaf</string>
+    <string name="bread">Bread</string>
+    <string name="cinnamon">Cinnamon roll</string>
+    <string name="bretzel">Bretzel</string>
+    <string name="croissant">Croissant</string>
+    <string name="andMore">...And a lot more!</string>
+    <string name="addressHeader">Check out yourself at:</string>
+    <string name="address">Russia, Vladimir oblast, Raduzhniy,\n1 block, 62/3</string>
+    <string name="phone">+79040364145 (Viber available)</string>
+    <string name="workHours">7AM : 10PM</string>
+    <string name="daysWorking">Open every day except Monday</string>
 </resources>
