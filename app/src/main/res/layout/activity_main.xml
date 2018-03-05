@@ -282,12 +282,13 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/address"
                 style="@style/contacts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toRightOf="@id/geomarker"
                 android:text="@string/address"
-                android:autoLink="map"/>
+                android:onClick="toMap"/>
 
             <ImageView
                 style="@style/contactsImg"
